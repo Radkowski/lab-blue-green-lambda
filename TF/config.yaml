@@ -1,0 +1,17 @@
+Parameters:
+
+  DeploymentPrefix: "RadkowskiLab-BGL"
+
+  Region: eu-central-1
+
+
+  AuthTags:
+    Owner: "me@radkowskil.pro"
+    Environment: "Lab"
+    RepoLocation: "github"
+  
+  CodePipeline:
+    DefaultLocation: "<enter_your_s3_bucket_here>"
+    
+
+
